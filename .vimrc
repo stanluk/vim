@@ -15,7 +15,7 @@
 :set noexpandtab
 :set ruler
 
-:filetype off
+:filetype on
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
@@ -28,7 +28,7 @@ Plugin 'valloric/youcompleteme'
 Plugin 'https://github.com/fatih/vim-go'
 Plugin 'rust-lang/rust.vim'
 Plugin 'timonv/vim-cargo'
-Plugin 'http://github.com/kien/ctrlp.vim'
+Plugin 'http://github.com/ctrlpvim/ctrlp.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'bling/vim-airline'
