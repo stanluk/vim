@@ -22,9 +22,8 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'majutsushi/tagbar'
-Plugin 'honza/vim-snippets'
 Plugin 'scrooloose/syntastic'
-Plugin 'valloric/youcompleteme'
+Plugin 'Valloric/YouCompleteMe'
 Plugin 'https://github.com/fatih/vim-go'
 Plugin 'rust-lang/rust.vim'
 Plugin 'timonv/vim-cargo'
@@ -33,8 +32,12 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'bling/vim-airline'
 
-let g:clang_library_path='/usr/lib/'
-let g:clang_complete_macros = 1
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
+Plugin 'honza/vim-snippets'
+
+
 set pumheight=20 
 
 call vundle#end()
